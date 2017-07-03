@@ -16,7 +16,9 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                      "切换显示字体。主要是熟悉导入字体的方法，熟悉tableview的使用",
                      "播放本地视频。主要是熟悉本地视频的播放，tableview的使用，如何自定义tableviewcell等",
                      "简单的欢迎页实现。主要熟悉UIScrollView、UIPageControl的使用",
-                     "简单的浏览图片。主要熟悉UICollectionView的使用，流式布局，自定义UICollectionCell等"]
+                     "简单的浏览图片。主要熟悉UICollectionView的使用，流式布局，自定义UICollectionCell等",
+                     "简单的定位。主要是熟悉iPhone定位的使用，位置的解析",
+                     "简单的使用系统自带的刷新控件。主要是熟悉系统自带的刷新控件使用"]
     
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: false)
@@ -76,6 +78,12 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         case 4:
             //简单的浏览图片。主要熟悉UICollectionView的使用，流式布局，自定义UICollectionCell等
             navigationController?.pushViewController(PictureBrowseController(), animated: true)
+        case 5:
+            //简单的定位。主要是熟悉iPhone定位的使用，位置的解析
+            navigationController?.pushViewController(CurrentLocationController(), animated: true)
+        case 6:
+            //简单的使用系统自带的刷新控件。主要是熟悉系统自带的刷新控件使用
+            navigationController?.pushViewController(SystemRefreshController(), animated: true)
         default:
             break
         }

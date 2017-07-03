@@ -47,5 +47,9 @@
 		<string>MFTongXin_Noncommercial-Regular.ttf</string>
 		<string>MFZhiHei_Noncommercial-Regular.ttf</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>需要您的允许，让我们找到你</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>需要您的允许，让我们找到你</string>
 </dict>
 </plist>

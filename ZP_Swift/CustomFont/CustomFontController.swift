@@ -40,17 +40,16 @@ class CustomFontController: UIViewController, UITableViewDelegate, UITableViewDa
         
         tableview.delegate = self
         tableview.dataSource = self
-        
-        view.addSubview(tableview)
-        
+
         button.setTitle("点击更换字体", for: .normal)
         button.setTitleColor(.red, for: .normal)
         button.backgroundColor = .yellow
         button .addTarget(self, action: #selector(changeTextFountName), for: .touchUpInside)
         
+        
+        view.addSubview(tableview)
         view.addSubview(button)
-        
-        
+
     }
 
     func changeTextFountName() {

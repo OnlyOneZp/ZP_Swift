@@ -58,6 +58,7 @@ class SimpleClockController: UIViewController {
         rightButton.addTarget(self, action: #selector(buttonClick(sender:)), for: .touchUpInside)
         rightButton.titleLabel?.font = UIFont.systemFont(ofSize: 40.0)
         
+        
         view.addSubview(timeTextLabel)
         view.addSubview(leftButton)
         view.addSubview(rightButton)

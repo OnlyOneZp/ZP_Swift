@@ -56,6 +56,7 @@ class PlayLocalVideoCell: UITableViewCell {
         videoSourceLabel.font = UIFont(name: "Avenir Next", size: 14)
         videoSourceLabel.textAlignment = .center
         
+        
         contentView.addSubview(videoImageView)
         contentView.addSubview(videoPlayImageView)
         contentView.addSubview(videoTitleLabel)

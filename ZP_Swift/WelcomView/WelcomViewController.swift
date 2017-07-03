@@ -69,16 +69,15 @@ class WelcomViewController: UIViewController, UIScrollViewDelegate {
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.contentSize = CGSize(width: ScreenWidth * CGFloat(imagesAry.count), height: ScreenHeight)
         
-        view.addSubview(scrollView)
-        
         pageControl.currentPage = currentPage
         pageControl.numberOfPages = imagesAry.count
         pageControl.isEnabled = false
         pageControl.pageIndicatorTintColor = .gray
         pageControl.currentPageIndicatorTintColor = .white
         
-        view.addSubview(pageControl)
         
+        view.addSubview(scrollView)
+        view.addSubview(pageControl)
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
