@@ -22,6 +22,9 @@
 		3C4E94341F04FDD700DB8E9D /* SimpleClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E942C1F04FDD700DB8E9D /* SimpleClockController.swift */; };
 		3C4E94351F04FDD700DB8E9D /* ZPTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E942E1F04FDD700DB8E9D /* ZPTools.swift */; };
 		3C4E94371F04FE1F00DB8E9D /* emoji_zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C4E94361F04FE1F00DB8E9D /* emoji_zone.mp4 */; };
+		3C5347EC1F0B6402002EC22D /* GradientColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347EB1F0B6402002EC22D /* GradientColorController.swift */; };
+		3C5347EF1F0B7072002EC22D /* ImageScrollerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */; };
+		3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */; };
 		3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */; };
 		3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517D1F06477A00359867 /* WelcomViewController.swift */; };
 		3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517F1F0647A500359867 /* PictureBrowseController.swift */; };
@@ -71,6 +74,9 @@
 		3C4E942C1F04FDD700DB8E9D /* SimpleClockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClockController.swift; sourceTree = "<group>"; };
 		3C4E942E1F04FDD700DB8E9D /* ZPTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTools.swift; sourceTree = "<group>"; };
 		3C4E94361F04FE1F00DB8E9D /* emoji_zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = emoji_zone.mp4; sourceTree = "<group>"; };
+		3C5347EB1F0B6402002EC22D /* GradientColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColorController.swift; sourceTree = "<group>"; };
+		3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollerController.swift; sourceTree = "<group>"; };
+		3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundController.swift; sourceTree = "<group>"; };
 		3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoCell.swift; sourceTree = "<group>"; };
 		3C63517D1F06477A00359867 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		3C63517F1F0647A500359867 /* PictureBrowseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureBrowseController.swift; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 			children = (
 				3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */,
 				3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */,
+				3C5347F01F0B8833002EC22D /* VideoBackground */,
+				3C5347ED1F0B7068002EC22D /* ImageScroller */,
+				3C5347EA1F0B63F4002EC22D /* GradientColor */,
 				3C7DCE501F0A3715008DA843 /* SystemRefreshControl */,
 				3C7DCE4A1F0A1610008DA843 /* CurrentLocation */,
 				3C63517B1F06477A00359867 /* PictureBrowse */,
@@ -210,6 +219,30 @@
 				3C4E942E1F04FDD700DB8E9D /* ZPTools.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		3C5347EA1F0B63F4002EC22D /* GradientColor */ = {
+			isa = PBXGroup;
+			children = (
+				3C5347EB1F0B6402002EC22D /* GradientColorController.swift */,
+			);
+			path = GradientColor;
+			sourceTree = "<group>";
+		};
+		3C5347ED1F0B7068002EC22D /* ImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */,
+			);
+			path = ImageScroller;
+			sourceTree = "<group>";
+		};
+		3C5347F01F0B8833002EC22D /* VideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */,
+			);
+			path = VideoBackground;
 			sourceTree = "<group>";
 		};
 		3C63517B1F06477A00359867 /* PictureBrowse */ = {
@@ -392,15 +425,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5347EF1F0B7072002EC22D /* ImageScrollerController.swift in Sources */,
 				3C7DCE521F0A3728008DA843 /* SystemRefreshController.swift in Sources */,
 				3C4E93E31F04CF5B00DB8E9D /* ViewController.swift in Sources */,
 				3C4E94331F04FDD700DB8E9D /* PlayLocalVideoController.swift in Sources */,
 				3C4E942F1F04FDD700DB8E9D /* CustomFontController.swift in Sources */,
+				3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */,
 				3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */,
 				3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */,
 				3C7DCE491F09EB1C008DA843 /* PictureCollectionCell.swift in Sources */,
 				3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */,
 				3C4E94351F04FDD700DB8E9D /* ZPTools.swift in Sources */,
+				3C5347EC1F0B6402002EC22D /* GradientColorController.swift in Sources */,
 				3C4E94341F04FDD700DB8E9D /* SimpleClockController.swift in Sources */,
 				3C7DCE471F09C626008DA843 /* PictureModel.swift in Sources */,
 				3C7DCE4C1F0A1628008DA843 /* CurrentLocationController.swift in Sources */,
