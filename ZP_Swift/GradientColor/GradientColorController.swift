@@ -6,6 +6,8 @@
 //  Copyright © 2017年 zp. All rights reserved.
 //
 
+//简单的梯度显示颜色。主要是熟悉怎么显示有梯度的颜色
+
 import UIKit
 
 class GradientColorController: UIViewController {

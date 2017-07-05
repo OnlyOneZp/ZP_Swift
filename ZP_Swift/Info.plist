@@ -51,5 +51,10 @@
 	<string>需要您的允许，让我们找到你</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>需要您的允许，让我们找到你</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

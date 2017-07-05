@@ -6,6 +6,8 @@
 //  Copyright © 2017年 zp. All rights reserved.
 //
 
+//利用ScrollView简单的实现图片缩放功能。主要是熟悉怎么使用ScrollView的缩放功能
+
 import UIKit
 
 class ImageScrollerController: UIViewController {
