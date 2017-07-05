@@ -25,6 +25,9 @@
 		3C5347EC1F0B6402002EC22D /* GradientColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347EB1F0B6402002EC22D /* GradientColorController.swift */; };
 		3C5347EF1F0B7072002EC22D /* ImageScrollerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */; };
 		3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */; };
+		3C59035C1F0C741E00B2E358 /* ButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59035B1F0C741E00B2E358 /* ButtonExtensions.swift */; };
+		3C59035E1F0C7E1800B2E358 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C59035D1F0C7E1800B2E358 /* moments.mp4 */; };
+		3C5903611F0C814600B2E358 /* ColorProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903601F0C814600B2E358 /* ColorProgressController.swift */; };
 		3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */; };
 		3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517D1F06477A00359867 /* WelcomViewController.swift */; };
 		3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517F1F0647A500359867 /* PictureBrowseController.swift */; };
@@ -77,6 +80,9 @@
 		3C5347EB1F0B6402002EC22D /* GradientColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColorController.swift; sourceTree = "<group>"; };
 		3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollerController.swift; sourceTree = "<group>"; };
 		3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundController.swift; sourceTree = "<group>"; };
+		3C59035B1F0C741E00B2E358 /* ButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtensions.swift; sourceTree = "<group>"; };
+		3C59035D1F0C7E1800B2E358 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		3C5903601F0C814600B2E358 /* ColorProgressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProgressController.swift; sourceTree = "<group>"; };
 		3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoCell.swift; sourceTree = "<group>"; };
 		3C63517D1F06477A00359867 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		3C63517F1F0647A500359867 /* PictureBrowseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureBrowseController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,7 @@
 			children = (
 				3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */,
 				3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */,
+				3C59035F1F0C812C00B2E358 /* ColorProgress */,
 				3C5347F01F0B8833002EC22D /* VideoBackground */,
 				3C5347ED1F0B7068002EC22D /* ImageScroller */,
 				3C5347EA1F0B63F4002EC22D /* GradientColor */,
@@ -241,8 +248,18 @@
 			isa = PBXGroup;
 			children = (
 				3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */,
+				3C59035B1F0C741E00B2E358 /* ButtonExtensions.swift */,
+				3C59035D1F0C7E1800B2E358 /* moments.mp4 */,
 			);
 			path = VideoBackground;
+			sourceTree = "<group>";
+		};
+		3C59035F1F0C812C00B2E358 /* ColorProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3C5903601F0C814600B2E358 /* ColorProgressController.swift */,
+			);
+			path = ColorProgress;
 			sourceTree = "<group>";
 		};
 		3C63517B1F06477A00359867 /* PictureBrowse */ = {
@@ -399,6 +416,7 @@
 				3C4E94321F04FDD700DB8E9D /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				3C4E93EB1F04CF5B00DB8E9D /* LaunchScreen.storyboard in Resources */,
 				3C4E94301F04FDD700DB8E9D /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				3C59035E1F0C7E1800B2E358 /* moments.mp4 in Resources */,
 				3C4E93E81F04CF5B00DB8E9D /* Assets.xcassets in Resources */,
 				3C4E93E61F04CF5B00DB8E9D /* Main.storyboard in Resources */,
 			);
@@ -426,8 +444,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C5347EF1F0B7072002EC22D /* ImageScrollerController.swift in Sources */,
+				3C59035C1F0C741E00B2E358 /* ButtonExtensions.swift in Sources */,
 				3C7DCE521F0A3728008DA843 /* SystemRefreshController.swift in Sources */,
 				3C4E93E31F04CF5B00DB8E9D /* ViewController.swift in Sources */,
+				3C5903611F0C814600B2E358 /* ColorProgressController.swift in Sources */,
 				3C4E94331F04FDD700DB8E9D /* PlayLocalVideoController.swift in Sources */,
 				3C4E942F1F04FDD700DB8E9D /* CustomFontController.swift in Sources */,
 				3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */,

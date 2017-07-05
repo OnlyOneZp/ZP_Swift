@@ -53,8 +53,8 @@ class WelcomViewController: UIViewController, UIScrollViewDelegate {
             
             if index == imagesAry.count - 1 {
                 let button = UIButton(frame: CGRect(x: ScreenWidth * CGFloat(index) + ScreenWidth / 3, y: ScreenHeight - 50 - 50, width: ScreenWidth / 3, height: 44))
-                button.setTitle("立即体验", for: .normal)
-                button.backgroundColor = .green
+                button.customBtn(customTitle: "立即体验")
+                
                 button.addTarget(self, action: #selector(buttonClick), for: .touchUpInside)
                 
                 scrollView.addSubview(button)

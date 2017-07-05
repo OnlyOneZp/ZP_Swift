@@ -10,7 +10,7 @@ import UIKit
 
 class ImageScrollerController: UIViewController {
 
-    let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenHeight))
+    let scrollView = UIScrollView(frame: CGRect(x: 0, y: 60, width: ScreenWidth, height: ScreenHeight - 60))
     let imageView = UIImageView(image: UIImage(named: "second"))
     
     

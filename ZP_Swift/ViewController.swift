@@ -21,7 +21,8 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                      "简单的使用系统自带的刷新控件。主要是熟悉系统自带的刷新控件使用",
                      "简单的梯度显示颜色。主要是熟悉怎么显示有梯度的颜色",
                      "利用ScrollView简单的实现图片缩放功能。主要是熟悉怎么使用ScrollView的缩放功能",
-                     "利用视频做背景的简单实现。主要是熟悉AVPlayerViewController的使用，以及达到用视频做背景的效果"]
+                     "利用视频做背景的简单实现。主要是熟悉AVPlayerViewController的使用，以及达到用视频做背景的效果",
+                     "简单的实现彩色的进度条。主要是熟悉swift的继承，CALayer动画的实现"]
     
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: false)
@@ -96,6 +97,9 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         case 9:
             //利用视频做背景的简单实现。主要是熟悉AVPlayerViewController的使用，以及达到用视频做背景的效果
             navigationController?.pushViewController(VideoBackgroundController(), animated: true)
+        case 10:
+            //简单的实现彩色的进度条。主要是熟悉swift的继承，CALayer动画的实现
+            navigationController?.pushViewController(ColorProgressController(), animated: true)
         default:
             break
         }
