@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C490B941F0DC6B70089B988 /* AnimateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C490B931F0DC6B70089B988 /* AnimateTableViewCell.swift */; };
+		3C490B971F0DD7340089B988 /* WaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C490B961F0DD7340089B988 /* WaveViewController.swift */; };
 		3C4E93E11F04CF5B00DB8E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */; };
 		3C4E93E31F04CF5B00DB8E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */; };
 		3C4E93E61F04CF5B00DB8E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4E93E41F04CF5B00DB8E9D /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		3C5903631F0C8CBA00B2E358 /* ColorProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903621F0C8CBA00B2E358 /* ColorProgress.swift */; };
 		3C5903661F0CB92E00B2E358 /* TableHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903651F0CB92E00B2E358 /* TableHeaderViewController.swift */; };
 		3C5903691F0CCB2F00B2E358 /* AnimateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */; };
+		3C5FA8E31F0F12470015AF8E /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E21F0F12470015AF8E /* WaveView.swift */; };
+		3C5FA8E61F0F277D0015AF8E /* ShapeLayerAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */; };
 		3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */; };
 		3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517D1F06477A00359867 /* WelcomViewController.swift */; };
 		3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517F1F0647A500359867 /* PictureBrowseController.swift */; };
@@ -59,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C490B931F0DC6B70089B988 /* AnimateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewCell.swift; sourceTree = "<group>"; };
+		3C490B961F0DD7340089B988 /* WaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveViewController.swift; sourceTree = "<group>"; };
 		3C4E93DD1F04CF5B00DB8E9D /* ZP_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZP_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +95,8 @@
 		3C5903621F0C8CBA00B2E358 /* ColorProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProgress.swift; sourceTree = "<group>"; };
 		3C5903651F0CB92E00B2E358 /* TableHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderViewController.swift; sourceTree = "<group>"; };
 		3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewController.swift; sourceTree = "<group>"; };
+		3C5FA8E21F0F12470015AF8E /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerAnimationController.swift; sourceTree = "<group>"; };
 		3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoCell.swift; sourceTree = "<group>"; };
 		3C63517D1F06477A00359867 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		3C63517F1F0647A500359867 /* PictureBrowseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureBrowseController.swift; sourceTree = "<group>"; };
@@ -125,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C490B951F0DD7220089B988 /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				3C490B961F0DD7340089B988 /* WaveViewController.swift */,
+				3C5FA8E21F0F12470015AF8E /* WaveView.swift */,
+			);
+			path = WaveView;
+			sourceTree = "<group>";
+		};
 		3C4E93D41F04CF5B00DB8E9D = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +168,8 @@
 			children = (
 				3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */,
 				3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */,
+				3C5FA8E41F0F276F0015AF8E /* ShapeLayerAnimation */,
+				3C490B951F0DD7220089B988 /* WaveView */,
 				3C5903671F0CCB2100B2E358 /* AnimateTableView */,
 				3C5903641F0CB91800B2E358 /* TableHeaderView */,
 				3C59035F1F0C812C00B2E358 /* ColorProgress */,
@@ -283,8 +302,17 @@
 			isa = PBXGroup;
 			children = (
 				3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */,
+				3C490B931F0DC6B70089B988 /* AnimateTableViewCell.swift */,
 			);
 			path = AnimateTableView;
+			sourceTree = "<group>";
+		};
+		3C5FA8E41F0F276F0015AF8E /* ShapeLayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */,
+			);
+			path = ShapeLayerAnimation;
 			sourceTree = "<group>";
 		};
 		3C63517B1F06477A00359867 /* PictureBrowse */ = {
@@ -397,6 +425,7 @@
 				TargetAttributes = {
 					3C4E93DC1F04CF5B00DB8E9D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DY3569S2KH;
 						ProvisioningStyle = Automatic;
 					};
 					3C4E93F01F04CF5B00DB8E9D = {
@@ -475,20 +504,24 @@
 				3C7DCE521F0A3728008DA843 /* SystemRefreshController.swift in Sources */,
 				3C4E93E31F04CF5B00DB8E9D /* ViewController.swift in Sources */,
 				3C5903611F0C814600B2E358 /* ColorProgressController.swift in Sources */,
+				3C5FA8E31F0F12470015AF8E /* WaveView.swift in Sources */,
 				3C4E94331F04FDD700DB8E9D /* PlayLocalVideoController.swift in Sources */,
 				3C4E942F1F04FDD700DB8E9D /* CustomFontController.swift in Sources */,
 				3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */,
 				3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */,
 				3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */,
 				3C7DCE491F09EB1C008DA843 /* PictureCollectionCell.swift in Sources */,
+				3C5FA8E61F0F277D0015AF8E /* ShapeLayerAnimationController.swift in Sources */,
 				3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */,
 				3C4E94351F04FDD700DB8E9D /* ZPTools.swift in Sources */,
 				3C5347EC1F0B6402002EC22D /* GradientColorController.swift in Sources */,
 				3C4E94341F04FDD700DB8E9D /* SimpleClockController.swift in Sources */,
+				3C490B941F0DC6B70089B988 /* AnimateTableViewCell.swift in Sources */,
 				3C7DCE471F09C626008DA843 /* PictureModel.swift in Sources */,
 				3C7DCE4C1F0A1628008DA843 /* CurrentLocationController.swift in Sources */,
 				3C5903661F0CB92E00B2E358 /* TableHeaderViewController.swift in Sources */,
 				3C4E93E11F04CF5B00DB8E9D /* AppDelegate.swift in Sources */,
+				3C490B971F0DD7340089B988 /* WaveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +675,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY3569S2KH;
 				INFOPLIST_FILE = ZP_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eims.rs.ZP-Swift";
@@ -654,6 +688,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY3569S2KH;
 				INFOPLIST_FILE = ZP_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eims.rs.ZP-Swift";

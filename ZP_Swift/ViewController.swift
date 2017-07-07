@@ -24,7 +24,9 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                      "利用视频做背景的简单实现。主要是熟悉AVPlayerViewController的使用，以及达到用视频做背景的效果",
                      "简单的实现彩色的进度条。主要是熟悉swift的继承，CALayer动画的实现",
                      "一个TableHeaderView跟随着下拉放大图片，上拉缩小图片功能。主要是利用ScrollView的contentInset属性，实现该效果",
-                     "TableViewCell动画。熟悉TableViewCell动画的实现"]
+                     "TableViewCell动画。熟悉TableViewCell动画的实现",
+                     "波浪形的动画。熟悉CAShapeLayer、CADisplayLink的使用",
+                     "采用UIBezierPath和CAShapeLayer配合，实现动画效果。加深对CAShapeLayer的熟悉，熟悉CABasicAnimation动画的实现"]
     
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: false)
@@ -108,6 +110,11 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         case 12:
             //TableViewCell动画。熟悉TableViewCell动画的实现
             navigationController?.pushViewController(AnimateTableViewController(), animated: true)
+        case 13:
+            //波浪形的动画。熟悉CAShapeLayer、CADisplayLink的使用
+            navigationController?.pushViewController(WaveViewController(), animated: true)
+            //采用UIBezierPath和CAShapeLayer配合，实现动画效果。加深对CAShapeLayer的熟悉，熟悉CABasicAnimation动画的实现
+            navigationController?.pushViewController(ShapeLayerAnimationController(), animated: true)
         default:
             break
         }
