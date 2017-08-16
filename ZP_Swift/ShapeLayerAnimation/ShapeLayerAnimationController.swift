@@ -12,10 +12,17 @@ import UIKit
 
 class ShapeLayerAnimationController: UIViewController {
 
+    let btnOne = UIButton(frame: CGRect(x: 100, y: 200, width: ScreenWidth-200, height: 30))
+    let btnTwo = UIButton(frame: CGRect(x: 100, y: 300, width: ScreenWidth-200, height: 30))
+    
+    var drawView = DrawView(frame:CGRect(x: 0, y: 64, width: ScreenWidth, height: ScreenHeight-64))
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setupView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +30,32 @@ class ShapeLayerAnimationController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func setupView() {
+        title = "画图与动画"
+        view.backgroundColor = UIColor.white
+        
+        btnOne.setTitle("DrawRect", for: .normal)
+        btnOne.setTitleColor(UIColor.orange, for: .normal)
+        btnOne.addTarget(self, action: #selector(showView), for: .touchUpInside)
+        view.addSubview(btnOne)
+        
+        
+        btnTwo.setTitle("CAShapeLayer", for: .normal)
+        btnTwo.setTitleColor(UIColor.orange, for: .normal)
+        btnTwo.addTarget(self, action: #selector(showView), for: .touchUpInside)
+        view.addSubview(btnTwo)
+    }
+    
+    func showView(_ sender: UIButton) {
+        if sender.currentTitle == "DrawRect" {
+            print("采用drawrect画图")
+            drawView.backgroundColor = UIColor.white
+            view.addSubview(drawView)
+        }else {
+            print("采用cashapelayer")
+            navigationController?.pushViewController(ShapeController(), animated: true)
+        }
+    }
 
     /*
     // MARK: - Navigation

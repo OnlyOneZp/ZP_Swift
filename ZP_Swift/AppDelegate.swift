@@ -9,14 +9,58 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CAAnimationDelegate {
 
     var window: UIWindow?
-
+    let mask = CALayer()
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: ScreenRect)
+        
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let zpVC = mainStoryboard.instantiateViewController(withIdentifier: "ViewController")
+        
+        window?.rootViewController = zpVC
+        
+        mask.contents = UIImage(named: "twitter")?.cgImage//这里需要是CGImage
+        mask.contentsGravity = "resizeAspect"//图片显示风格
+        mask.bounds = CGRect(x: 0, y: 0, width: 123, height: 100)//边界
+        mask.anchorPoint = CGPoint(x: 0.5, y: 0.5)//锚点
+        mask.position = CGPoint(x: ScreenWidth/2, y: ScreenHeight/2)//位置
+        window?.rootViewController?.view.layer.mask = mask
+        window?.backgroundColor = UIColor(red: 31/255.0, green: 150/255.0, blue: 1, alpha: 1)
+        
+        animateMask()
+        
+        window?.makeKeyAndVisible()
         return true
+    }
+    
+    func animateMask() {
+        /*keyframe与basic区别：
+         1.basic只能从一个数值到另一个数值
+         2.keyframe使用一个nsarray保存这些值
+         3.basic可以看做只有2个关键帧的keyframe关键帧动画
+         */
+        
+        let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")
+        keyFrameAnimation.delegate = self
+        keyFrameAnimation.duration = 0.6
+        keyFrameAnimation.beginTime = CACurrentMediaTime() + 0.5
+        keyFrameAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut),CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)]
+        let firstBounds = NSValue(cgRect: mask.bounds)
+        let secondBounds = NSValue(cgRect: CGRect(x: 0, y: 0, width: 369, height: 300))
+        let finalBounds = NSValue(cgRect: CGRect(x: 0, y: 0, width: 1230, height: 1000))
+        keyFrameAnimation.values = [firstBounds, secondBounds, finalBounds]
+        keyFrameAnimation.keyTimes = [0, 0.8, 1]
+        mask.add(keyFrameAnimation, forKey: "bounds")
+    }
+    
+    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+        window?.rootViewController?.view.layer.mask = nil
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

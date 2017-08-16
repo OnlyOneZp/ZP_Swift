@@ -27,6 +27,8 @@
 		3C5347EC1F0B6402002EC22D /* GradientColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347EB1F0B6402002EC22D /* GradientColorController.swift */; };
 		3C5347EF1F0B7072002EC22D /* ImageScrollerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */; };
 		3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */; };
+		3C587EEE1F1C928A00A4B74E /* ShapeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C587EED1F1C928A00A4B74E /* ShapeController.swift */; };
+		3C587EF01F1C92A000A4B74E /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C587EEF1F1C92A000A4B74E /* DrawView.swift */; };
 		3C59035C1F0C741E00B2E358 /* ButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59035B1F0C741E00B2E358 /* ButtonExtensions.swift */; };
 		3C59035E1F0C7E1800B2E358 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C59035D1F0C7E1800B2E358 /* moments.mp4 */; };
 		3C5903611F0C814600B2E358 /* ColorProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903601F0C814600B2E358 /* ColorProgressController.swift */; };
@@ -35,6 +37,8 @@
 		3C5903691F0CCB2F00B2E358 /* AnimateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */; };
 		3C5FA8E31F0F12470015AF8E /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E21F0F12470015AF8E /* WaveView.swift */; };
 		3C5FA8E61F0F277D0015AF8E /* ShapeLayerAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */; };
+		3C5FD1791F42A35900D37F3D /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD1781F42A35900D37F3D /* PickerViewController.swift */; };
+		3C61D7A61F4424510088C345 /* AnimatedSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C61D7A51F4424510088C345 /* AnimatedSplashViewController.swift */; };
 		3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */; };
 		3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517D1F06477A00359867 /* WelcomViewController.swift */; };
 		3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63517F1F0647A500359867 /* PictureBrowseController.swift */; };
@@ -89,6 +93,8 @@
 		3C5347EB1F0B6402002EC22D /* GradientColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColorController.swift; sourceTree = "<group>"; };
 		3C5347EE1F0B7072002EC22D /* ImageScrollerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollerController.swift; sourceTree = "<group>"; };
 		3C5347F11F0B883C002EC22D /* VideoBackgroundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundController.swift; sourceTree = "<group>"; };
+		3C587EED1F1C928A00A4B74E /* ShapeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeController.swift; sourceTree = "<group>"; };
+		3C587EEF1F1C92A000A4B74E /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		3C59035B1F0C741E00B2E358 /* ButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtensions.swift; sourceTree = "<group>"; };
 		3C59035D1F0C7E1800B2E358 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		3C5903601F0C814600B2E358 /* ColorProgressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProgressController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 		3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewController.swift; sourceTree = "<group>"; };
 		3C5FA8E21F0F12470015AF8E /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerAnimationController.swift; sourceTree = "<group>"; };
+		3C5FD1781F42A35900D37F3D /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		3C61D7A51F4424510088C345 /* AnimatedSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedSplashViewController.swift; sourceTree = "<group>"; };
 		3C6351761F05D93000359867 /* PlayLocalVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoCell.swift; sourceTree = "<group>"; };
 		3C63517D1F06477A00359867 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		3C63517F1F0647A500359867 /* PictureBrowseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureBrowseController.swift; sourceTree = "<group>"; };
@@ -168,6 +176,8 @@
 			children = (
 				3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */,
 				3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */,
+				3C61D7A41F4424470088C345 /* AnimatedSplash */,
+				3C5FD1771F42A33400D37F3D /* PickerView */,
 				3C5FA8E41F0F276F0015AF8E /* ShapeLayerAnimation */,
 				3C490B951F0DD7220089B988 /* WaveView */,
 				3C5903671F0CCB2100B2E358 /* AnimateTableView */,
@@ -311,8 +321,26 @@
 			isa = PBXGroup;
 			children = (
 				3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */,
+				3C587EED1F1C928A00A4B74E /* ShapeController.swift */,
+				3C587EEF1F1C92A000A4B74E /* DrawView.swift */,
 			);
 			path = ShapeLayerAnimation;
+			sourceTree = "<group>";
+		};
+		3C5FD1771F42A33400D37F3D /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FD1781F42A35900D37F3D /* PickerViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		3C61D7A41F4424470088C345 /* AnimatedSplash */ = {
+			isa = PBXGroup;
+			children = (
+				3C61D7A51F4424510088C345 /* AnimatedSplashViewController.swift */,
+			);
+			path = AnimatedSplash;
 			sourceTree = "<group>";
 		};
 		3C63517B1F06477A00359867 /* PictureBrowse */ = {
@@ -510,7 +538,10 @@
 				3C5347F21F0B883C002EC22D /* VideoBackgroundController.swift in Sources */,
 				3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */,
 				3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */,
+				3C587EEE1F1C928A00A4B74E /* ShapeController.swift in Sources */,
+				3C587EF01F1C92A000A4B74E /* DrawView.swift in Sources */,
 				3C7DCE491F09EB1C008DA843 /* PictureCollectionCell.swift in Sources */,
+				3C61D7A61F4424510088C345 /* AnimatedSplashViewController.swift in Sources */,
 				3C5FA8E61F0F277D0015AF8E /* ShapeLayerAnimationController.swift in Sources */,
 				3C6351771F05D93000359867 /* PlayLocalVideoCell.swift in Sources */,
 				3C4E94351F04FDD700DB8E9D /* ZPTools.swift in Sources */,
@@ -521,6 +552,7 @@
 				3C7DCE4C1F0A1628008DA843 /* CurrentLocationController.swift in Sources */,
 				3C5903661F0CB92E00B2E358 /* TableHeaderViewController.swift in Sources */,
 				3C4E93E11F04CF5B00DB8E9D /* AppDelegate.swift in Sources */,
+				3C5FD1791F42A35900D37F3D /* PickerViewController.swift in Sources */,
 				3C490B971F0DD7340089B988 /* WaveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

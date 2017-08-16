@@ -9,8 +9,8 @@
         <!--Navigation Controller-->
         <scene sceneID="ZNm-NG-fcu">
             <objects>
-                <navigationController id="FWf-Y4-NNh" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="k6m-Ux-k1t">
+                <navigationController storyboardIdentifier="ViewController" id="FWf-Y4-NNh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k6m-Ux-k1t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -20,7 +20,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qiw-AW-73j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1270" y="55"/>
+            <point key="canvasLocation" x="-774" y="69"/>
         </scene>
         <!--ZP_TEST-->
         <scene sceneID="tne-QT-ifu">
@@ -39,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-415" y="45"/>
+            <point key="canvasLocation" x="-431" y="54"/>
         </scene>
     </scenes>
 </document>
