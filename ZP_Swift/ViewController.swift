@@ -28,7 +28,11 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                      "波浪形的动画。熟悉CAShapeLayer、CADisplayLink的使用",
                      "采用UIBezierPath和CAShapeLayer配合，实现动画效果。加深对CAShapeLayer的熟悉，熟悉CABasicAnimation动画的实现",
                      "用PickerView实现的时间选择器。熟悉PickerView的使用",
-                     "关键帧动画实现类似twitter加载首页效果。熟悉关键帧动画CAKeyframeAnimation的使用"]
+                     "关键帧动画实现类似twitter加载首页效果。熟悉关键帧动画CAKeyframeAnimation的使用",
+                     "转场动画最简单的实现方式。利用ViewController的transition方法，实现VC的子VC之间跳转的转场动画",
+                     "实现push、pop动画。该转场动画的实现方式比较适合用导航栏push、pop的时候用，UITabbarController等也适合",
+                     "一个简易的音乐播放器。熟悉FileManager对文件的操作(复制、粘贴、查找等)，AudioPlayer播放音乐，do-catch处理throws抛出的异常等",
+                     "模态视图的呈现。熟悉了模态视图的呈现方法，呈现模态视图自定义转场动画，修改系统按钮图标、标题位置的方法"]
     
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: false)
@@ -124,6 +128,18 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         case 16:
             //关键帧动画实现类似twitter加载首页效果。熟悉关键帧动画CAKeyframeAnimation的使用
             navigationController?.pushViewController(AnimatedSplashViewController(), animated: false)
+        case 17:
+            //转场动画最简单的实现方式。利用ViewController的transition方法，实现VC的子VC之间跳转的转场动画
+            navigationController?.pushViewController(ChildVCTransitionViewController(), animated: false)
+        case 18:
+            //实现push、pop动画。该转场动画的实现方式比较适合用导航栏push、pop的时候用，UITabbarController等也适合
+            navigationController?.pushViewController(CustomPushTransitionViewController(), animated: false)
+        case 19:
+            //一个简易的音乐播放器。熟悉FileManager对文件的操作(复制、粘贴、查找等)，AudioPlayer播放音乐，do-catch处理throws抛出的异常等
+            navigationController?.pushViewController(MusicPlayerViewController(), animated: false)
+        case 20:
+            //模态视图的呈现。熟悉了模态视图的呈现方法，呈现模态视图自定义转场动画，修改系统按钮图标、标题位置的方法
+            navigationController?.pushViewController(TumblrMenuViewController(), animated: false)
         default:
             break
         }
