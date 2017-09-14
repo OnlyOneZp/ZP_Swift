@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0DCF9B1F665D77008482F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DCF9A1F665D77008482F5 /* LoginViewController.swift */; };
+		3C0DCF9D1F665DA0008482F5 /* ExtensionMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DCF9C1F665DA0008482F5 /* ExtensionMine.swift */; };
+		3C1BD15D1F68FEF90060A958 /* CollectionViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BD15C1F68FEF90060A958 /* CollectionViewAnimationViewController.swift */; };
+		3C1BD15F1F6901F50060A958 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BD15E1F6901F50060A958 /* CustomCell.swift */; };
+		3C3CF3981F4BC01F0039C482 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CF3971F4BC01F0039C482 /* Extension.swift */; };
+		3C3CF39A1F4BC4C50039C482 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CF3991F4BC4C50039C482 /* MenuViewController.swift */; };
+		3C3CF39C1F4BC4F20039C482 /* MenuTransitionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CF39B1F4BC4F20039C482 /* MenuTransitionManger.swift */; };
 		3C490B941F0DC6B70089B988 /* AnimateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C490B931F0DC6B70089B988 /* AnimateTableViewCell.swift */; };
 		3C490B971F0DD7340089B988 /* WaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C490B961F0DD7340089B988 /* WaveViewController.swift */; };
+		3C4E78711F67C09D0016A8F0 /* URLImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E78701F67C09D0016A8F0 /* URLImageViewController.swift */; };
 		3C4E93E11F04CF5B00DB8E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */; };
 		3C4E93E31F04CF5B00DB8E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */; };
 		3C4E93E61F04CF5B00DB8E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4E93E41F04CF5B00DB8E9D /* Main.storyboard */; };
@@ -35,6 +43,8 @@
 		3C5903631F0C8CBA00B2E358 /* ColorProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903621F0C8CBA00B2E358 /* ColorProgress.swift */; };
 		3C5903661F0CB92E00B2E358 /* TableHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903651F0CB92E00B2E358 /* TableHeaderViewController.swift */; };
 		3C5903691F0CCB2F00B2E358 /* AnimateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */; };
+		3C5B9CF51F6A2AC90078FFE2 /* SwipeableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B9CF41F6A2AC90078FFE2 /* SwipeableCellViewController.swift */; };
+		3C5B9D001F6A6A790078FFE2 /* SortableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B9CFF1F6A6A790078FFE2 /* SortableCollectionViewController.swift */; };
 		3C5FA8E31F0F12470015AF8E /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E21F0F12470015AF8E /* WaveView.swift */; };
 		3C5FA8E61F0F277D0015AF8E /* ShapeLayerAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */; };
 		3C5FD1791F42A35900D37F3D /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD1781F42A35900D37F3D /* PickerViewController.swift */; };
@@ -78,8 +88,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0DCF9A1F665D77008482F5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C0DCF9C1F665DA0008482F5 /* ExtensionMine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionMine.swift; sourceTree = "<group>"; };
+		3C1BD15C1F68FEF90060A958 /* CollectionViewAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewAnimationViewController.swift; sourceTree = "<group>"; };
+		3C1BD15E1F6901F50060A958 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3C3CF3971F4BC01F0039C482 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3C3CF3991F4BC4C50039C482 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3C3CF39B1F4BC4F20039C482 /* MenuTransitionManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManger.swift; sourceTree = "<group>"; };
 		3C490B931F0DC6B70089B988 /* AnimateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewCell.swift; sourceTree = "<group>"; };
 		3C490B961F0DD7340089B988 /* WaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveViewController.swift; sourceTree = "<group>"; };
+		3C4E78701F67C09D0016A8F0 /* URLImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageViewController.swift; sourceTree = "<group>"; };
 		3C4E93DD1F04CF5B00DB8E9D /* ZP_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZP_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +130,8 @@
 		3C5903621F0C8CBA00B2E358 /* ColorProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProgress.swift; sourceTree = "<group>"; };
 		3C5903651F0CB92E00B2E358 /* TableHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderViewController.swift; sourceTree = "<group>"; };
 		3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewController.swift; sourceTree = "<group>"; };
+		3C5B9CF41F6A2AC90078FFE2 /* SwipeableCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableCellViewController.swift; sourceTree = "<group>"; };
+		3C5B9CFF1F6A6A790078FFE2 /* SortableCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortableCollectionViewController.swift; sourceTree = "<group>"; };
 		3C5FA8E21F0F12470015AF8E /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerAnimationController.swift; sourceTree = "<group>"; };
 		3C5FD1781F42A35900D37F3D /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +183,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C0DCF991F665CF8008482F5 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DCF9A1F665D77008482F5 /* LoginViewController.swift */,
+				3C0DCF9C1F665DA0008482F5 /* ExtensionMine.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		3C1BD15B1F68DB9C0060A958 /* CollectionViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3C1BD15C1F68FEF90060A958 /* CollectionViewAnimationViewController.swift */,
+				3C1BD15E1F6901F50060A958 /* CustomCell.swift */,
+			);
+			path = CollectionViewAnimation;
+			sourceTree = "<group>";
+		};
 		3C490B951F0DD7220089B988 /* WaveView */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +208,14 @@
 				3C5FA8E21F0F12470015AF8E /* WaveView.swift */,
 			);
 			path = WaveView;
+			sourceTree = "<group>";
+		};
+		3C4E786F1F67C08B0016A8F0 /* URLImage */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E78701F67C09D0016A8F0 /* URLImageViewController.swift */,
+			);
+			path = URLImage;
 			sourceTree = "<group>";
 		};
 		3C4E93D41F04CF5B00DB8E9D = {
@@ -198,6 +244,11 @@
 			children = (
 				3C4E93E01F04CF5B00DB8E9D /* AppDelegate.swift */,
 				3C4E93E21F04CF5B00DB8E9D /* ViewController.swift */,
+				3C5B9CFE1F6A6A490078FFE2 /* SortableCollectionView */,
+				3C5B9CF31F6A2AA70078FFE2 /* SwipeableCell */,
+				3C1BD15B1F68DB9C0060A958 /* CollectionViewAnimation */,
+				3C4E786F1F67C08B0016A8F0 /* URLImage */,
+				3C0DCF991F665CF8008482F5 /* LoginView */,
 				3C722A7B1F4ACFB4008B0A7C /* TumblrMenu */,
 				3C722A741F4ABD70008B0A7C /* MusicPlayer */,
 				3C722A6B1F4A5EAF008B0A7C /* CustomPushTransition */,
@@ -344,6 +395,22 @@
 			path = AnimateTableView;
 			sourceTree = "<group>";
 		};
+		3C5B9CF31F6A2AA70078FFE2 /* SwipeableCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B9CF41F6A2AC90078FFE2 /* SwipeableCellViewController.swift */,
+			);
+			path = SwipeableCell;
+			sourceTree = "<group>";
+		};
+		3C5B9CFE1F6A6A490078FFE2 /* SortableCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B9CFF1F6A6A790078FFE2 /* SortableCollectionViewController.swift */,
+			);
+			path = SortableCollectionView;
+			sourceTree = "<group>";
+		};
 		3C5FA8E41F0F276F0015AF8E /* ShapeLayerAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +490,9 @@
 			isa = PBXGroup;
 			children = (
 				3C722A7C1F4ACFBF008B0A7C /* TumblrMenuViewController.swift */,
+				3C3CF3991F4BC4C50039C482 /* MenuViewController.swift */,
+				3C3CF39B1F4BC4F20039C482 /* MenuTransitionManger.swift */,
+				3C3CF3971F4BC01F0039C482 /* Extension.swift */,
 			);
 			path = TumblrMenu;
 			sourceTree = "<group>";
@@ -593,6 +663,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1BD15F1F6901F50060A958 /* CustomCell.swift in Sources */,
+				3C0DCF9B1F665D77008482F5 /* LoginViewController.swift in Sources */,
 				3C5347EF1F0B7072002EC22D /* ImageScrollerController.swift in Sources */,
 				3C5903691F0CCB2F00B2E358 /* AnimateTableViewController.swift in Sources */,
 				3C5903631F0C8CBA00B2E358 /* ColorProgress.swift in Sources */,
@@ -602,6 +674,7 @@
 				3C722A6D1F4A5ECF008B0A7C /* CustomPushTransitionViewController.swift in Sources */,
 				3C4E93E31F04CF5B00DB8E9D /* ViewController.swift in Sources */,
 				3C5903611F0C814600B2E358 /* ColorProgressController.swift in Sources */,
+				3C3CF3981F4BC01F0039C482 /* Extension.swift in Sources */,
 				3C61D7AD1F4444980088C345 /* ChildBVC.swift in Sources */,
 				3C5FA8E31F0F12470015AF8E /* WaveView.swift in Sources */,
 				3C4E94331F04FDD700DB8E9D /* PlayLocalVideoController.swift in Sources */,
@@ -611,6 +684,7 @@
 				3C63517E1F06477A00359867 /* WelcomViewController.swift in Sources */,
 				3C6351801F0647A500359867 /* PictureBrowseController.swift in Sources */,
 				3C587EEE1F1C928A00A4B74E /* ShapeController.swift in Sources */,
+				3C5B9CF51F6A2AC90078FFE2 /* SwipeableCellViewController.swift in Sources */,
 				3C587EF01F1C92A000A4B74E /* DrawView.swift in Sources */,
 				3C7DCE491F09EB1C008DA843 /* PictureCollectionCell.swift in Sources */,
 				3C61D7A61F4424510088C345 /* AnimatedSplashViewController.swift in Sources */,
@@ -623,14 +697,20 @@
 				3C4E94341F04FDD700DB8E9D /* SimpleClockController.swift in Sources */,
 				3C490B941F0DC6B70089B988 /* AnimateTableViewCell.swift in Sources */,
 				3C722A7D1F4ACFBF008B0A7C /* TumblrMenuViewController.swift in Sources */,
+				3C3CF39A1F4BC4C50039C482 /* MenuViewController.swift in Sources */,
+				3C0DCF9D1F665DA0008482F5 /* ExtensionMine.swift in Sources */,
+				3C3CF39C1F4BC4F20039C482 /* MenuTransitionManger.swift in Sources */,
 				3C722A711F4A78E1008B0A7C /* PushAnimation.swift in Sources */,
 				3C7DCE471F09C626008DA843 /* PictureModel.swift in Sources */,
 				3C7DCE4C1F0A1628008DA843 /* CurrentLocationController.swift in Sources */,
+				3C5B9D001F6A6A790078FFE2 /* SortableCollectionViewController.swift in Sources */,
 				3C5903661F0CB92E00B2E358 /* TableHeaderViewController.swift in Sources */,
 				3C61D7AB1F4444880088C345 /* ChildAVC.swift in Sources */,
+				3C4E78711F67C09D0016A8F0 /* URLImageViewController.swift in Sources */,
 				3C4E93E11F04CF5B00DB8E9D /* AppDelegate.swift in Sources */,
 				3C5FD1791F42A35900D37F3D /* PickerViewController.swift in Sources */,
 				3C490B971F0DD7340089B988 /* WaveViewController.swift in Sources */,
+				3C1BD15D1F68FEF90060A958 /* CollectionViewAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

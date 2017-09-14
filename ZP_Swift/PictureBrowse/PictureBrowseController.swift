@@ -13,7 +13,6 @@ import UIKit
 let ItemWidth = ScreenWidth - 40
 let ItemHeight = ScreenHeight / 3.0
 
-
 class PictureBrowseController: UIViewController {
 
     let backgroundImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenHeight))

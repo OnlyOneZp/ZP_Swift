@@ -32,7 +32,12 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                      "转场动画最简单的实现方式。利用ViewController的transition方法，实现VC的子VC之间跳转的转场动画",
                      "实现push、pop动画。该转场动画的实现方式比较适合用导航栏push、pop的时候用，UITabbarController等也适合",
                      "一个简易的音乐播放器。熟悉FileManager对文件的操作(复制、粘贴、查找等)，AudioPlayer播放音乐，do-catch处理throws抛出的异常等",
-                     "模态视图的呈现。熟悉了模态视图的呈现方法，呈现模态视图自定义转场动画，修改系统按钮图标、标题位置的方法"]
+                     "模态视图的呈现。熟悉了模态视图的呈现方法，呈现模态视图自定义转场动画，修改系统按钮图标、标题位置的方法",
+                     "登录页面。熟悉如何监听键盘show和hidden通知，自定义Log使其在测试时打印输出，发布时不输出，提高app性能",
+                     "加载网络图片。熟悉URLSession下载图片，发送GET请求，GCD实现线程切换等操作",
+                     "集合视图动画。熟悉CollectionView使用，自定义cell，闭包使用，结构体自定义等",
+                     "TableView左划出现操作菜单功能。熟悉实现方式，AlertControl的使用等"
+                     ]
     
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: false)
@@ -140,6 +145,18 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         case 20:
             //模态视图的呈现。熟悉了模态视图的呈现方法，呈现模态视图自定义转场动画，修改系统按钮图标、标题位置的方法
             navigationController?.pushViewController(TumblrMenuViewController(), animated: false)
+        case 21:
+            //登录页面。熟悉如何监听键盘show和hidden通知，自定义Log使其在测试时打印输出，发布时不输出，提高app性能
+            navigationController?.pushViewController(LoginViewController(), animated: false)
+        case 22:
+            //加载网络图片。熟悉URLSession下载图片，发送GET请求，GCD实现线程切换等操作
+            navigationController?.pushViewController(URLImageViewController(), animated: false)
+        case 23:
+            //集合视图动画。熟悉CollectionView使用，自定义cell，闭包使用，结构体自定义等
+            navigationController?.pushViewController(CollectionViewAnimationViewController(), animated: false)
+        case 24:
+            //TableView左划出现操作菜单功能。熟悉实现方式，AlertControl的使用等
+            navigationController?.pushViewController(SwipeableCellViewController(), animated: false)
         default:
             break
         }
