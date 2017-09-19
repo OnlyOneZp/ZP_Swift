@@ -45,6 +45,7 @@
 		3C5903691F0CCB2F00B2E358 /* AnimateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */; };
 		3C5B9CF51F6A2AC90078FFE2 /* SwipeableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B9CF41F6A2AC90078FFE2 /* SwipeableCellViewController.swift */; };
 		3C5B9D001F6A6A790078FFE2 /* SortableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B9CFF1F6A6A790078FFE2 /* SortableCollectionViewController.swift */; };
+		3C5B9D021F6A6DAB0078FFE2 /* SortableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B9D011F6A6DAB0078FFE2 /* SortableCollectionView.swift */; };
 		3C5FA8E31F0F12470015AF8E /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E21F0F12470015AF8E /* WaveView.swift */; };
 		3C5FA8E61F0F277D0015AF8E /* ShapeLayerAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */; };
 		3C5FD1791F42A35900D37F3D /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD1781F42A35900D37F3D /* PickerViewController.swift */; };
@@ -132,6 +133,7 @@
 		3C5903681F0CCB2F00B2E358 /* AnimateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewController.swift; sourceTree = "<group>"; };
 		3C5B9CF41F6A2AC90078FFE2 /* SwipeableCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableCellViewController.swift; sourceTree = "<group>"; };
 		3C5B9CFF1F6A6A790078FFE2 /* SortableCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortableCollectionViewController.swift; sourceTree = "<group>"; };
+		3C5B9D011F6A6DAB0078FFE2 /* SortableCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortableCollectionView.swift; sourceTree = "<group>"; };
 		3C5FA8E21F0F12470015AF8E /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		3C5FA8E51F0F277D0015AF8E /* ShapeLayerAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerAnimationController.swift; sourceTree = "<group>"; };
 		3C5FD1781F42A35900D37F3D /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				3C5B9CFF1F6A6A790078FFE2 /* SortableCollectionViewController.swift */,
+				3C5B9D011F6A6DAB0078FFE2 /* SortableCollectionView.swift */,
 			);
 			path = SortableCollectionView;
 			sourceTree = "<group>";
@@ -669,6 +672,7 @@
 				3C5903691F0CCB2F00B2E358 /* AnimateTableViewController.swift in Sources */,
 				3C5903631F0C8CBA00B2E358 /* ColorProgress.swift in Sources */,
 				3C59035C1F0C741E00B2E358 /* ButtonExtensions.swift in Sources */,
+				3C5B9D021F6A6DAB0078FFE2 /* SortableCollectionView.swift in Sources */,
 				3C7DCE521F0A3728008DA843 /* SystemRefreshController.swift in Sources */,
 				3C61D7A91F4432CE0088C345 /* ChildVCTransitionViewController.swift in Sources */,
 				3C722A6D1F4A5ECF008B0A7C /* CustomPushTransitionViewController.swift in Sources */,

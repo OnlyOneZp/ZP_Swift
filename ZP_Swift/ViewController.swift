@@ -36,7 +36,8 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                      "登录页面。熟悉如何监听键盘show和hidden通知，自定义Log使其在测试时打印输出，发布时不输出，提高app性能",
                      "加载网络图片。熟悉URLSession下载图片，发送GET请求，GCD实现线程切换等操作",
                      "集合视图动画。熟悉CollectionView使用，自定义cell，闭包使用，结构体自定义等",
-                     "TableView左划出现操作菜单功能。熟悉实现方式，AlertControl的使用等"
+                     "TableView左划出现操作菜单功能。熟悉实现方式，AlertControl的使用等",
+                     "可拖动的CollectionViewCell。没有利用iOS9系统提供的方法，该实现方式适用用iOS8以上系统。熟悉协议、代理的使用"
                      ]
     
     override func viewWillAppear(_ animated: Bool) {
@@ -157,6 +158,9 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         case 24:
             //TableView左划出现操作菜单功能。熟悉实现方式，AlertControl的使用等
             navigationController?.pushViewController(SwipeableCellViewController(), animated: false)
+        case 25:
+            //可拖动的CollectionViewCell。没有利用iOS9系统提供的方法，该实现方式适用用iOS8以上系统。熟悉协议、代理的使用
+            navigationController?.pushViewController(SortableCollectionViewController(), animated: true)
         default:
             break
         }
